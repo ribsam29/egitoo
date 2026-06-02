@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egito - Conhecendo o País das Pirâmides</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">🏛️ EGITO</div>
+            <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="#" onclick="mostrarSecao(event, 'inicio')" class="ativo">Início</a></li>
+                <li><a href="#" onclick="mostrarSecao(event, 'localizacao')">Localização</a></li>
+                <li><a href="#" onclick="mostrarSecao(event, 'historia')">História</a></li>
+                <li><a href="#" onclick="mostrarSecao(event, 'cultura')">Cultura</a></li>
+                <li><a href="#" onclick="mostrarSecao(event, 'atracoes')">Atrações</a></li>
+                <li><a href="#" onclick="mostrarSecao(event, 'moderno')">Egito Moderno</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="container">
+        
+        <!-- Seção: Início -->
+        <section id="inicio" class="secao ativa">
+            <div class="hero">
+                <h1>Bem-vindo ao Egito</h1>
+                <p>O País das Pirâmides, Mistérios e Civilização Milenar</p>
+            </div>
+            <div class="conteudo-inicio">
+                <div class="card">
+                    <h2>🏜️ Terra Antiga</h2>
+                    <p>O Egito é uma das civilizações mais antigas do mundo, com mais de 5.000 anos de história documentada. Um país de mistério, grandiosidade e legado eterno.</p>
+                </div>
+                <div class="card">
+                    <h2>🌊 Rio Nilo</h2>
+                    <p>O Nilo, com seus 6.650 km, é o rio mais longo do mundo. Ele foi o berço da civilização egípcia, fornecendo água, alimento e transporte.</p>
+                </div>
+                <div class="card">
+                    <h2>🗼 Maravilhas Antigas</h2>
+                    <p>A Grande Pirâmide de Gizé, a Esfinge e os Templos de Abu Simbel são apenas algumas das maravilhas que o Egito oferece ao mundo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Localização -->
+        <section id="localizacao" class="secao">
+            <h1>Localização Geográfica</h1>
+            <div class="localizacao-conteudo">
+                <div class="info-box">
+                    <h2>📍 Onde fica o Egito?</h2>
+                    <p>O Egito está localizado no nordeste da África, fazendo fronteira com:</p>
+                    <ul>
+                        <li><strong>Norte:</strong> Mar Mediterrâneo</li>
+                        <li><strong>Leste:</strong> Israel e Palestina</li>
+                        <li><strong>Sul:</strong> Sudão</li>
+                        <li><strong>Oeste:</strong> Líbia</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <h2>📊 Dados Geográficos</h2>
+                    <ul>
+                        <li><strong>Área:</strong> 1.002.000 km²</li>
+                        <li><strong>População:</strong> Mais de 100 milhões de habitantes</li>
+                        <li><strong>Capital:</strong> Cairo (capital maior do mundo árabe)</li>
+                        <li><strong>Clima:</strong> Desértico, muito seco e quente</li>
+                        <li><strong>Rio Principal:</strong> Rio Nilo (6.650 km)</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <h2>🏙️ Principais Cidades</h2>
+                    <ul>
+                        <li><strong>Cairo:</strong> Capital, maior cidade</li>
+                        <li><strong>Alexandria:</strong> Porto importante no Mediterrâneo</li>
+                        <li><strong>Gizé:</strong> Conhecida pelas pirâmides</li>
+                        <li><strong>Luxor:</strong> Antiga Tebas, centro turístico</li>
+                        <li><strong>Assuã:</strong> Cidade no sul do país</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: História -->
+        <section id="historia" class="secao">
+            <h1>História do Egito</h1>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">3100 a.C.</div>
+                    <div class="timeline-content">
+                        <h3>Período Dinástico Antigo</h3>
+                        <p>Unificação do Egito Superior e Inferior sob o Rei Narmer. Início da Era das Pirâmides e desenvolvimento da escrita hieroglífica.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2589-2566 a.C.</div>
+                    <div class="timeline-content">
+                        <h3>Reinado de Quéops</h3>
+                        <p>Construção da Grande Pirâmide de Gizé, uma das Sete Maravilhas do Mundo Antigo. Apogeu do Império Antigo egípcio.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1550-1070 a.C.</div>
+                    <div class="timeline-content">
+                        <h3>Império Novo</h3>
+                        <p>Período de maior esplendor, com faraós como Tutmósis III, Amenófis III e Ramsés II. Expansão territorial e riqueza.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">332 a.C.</div>
+                    <div class="timeline-content">
+                        <h3>Conquista de Alexandre o Grande</h3>
+                        <p>Alexandre conquistou o Egito, iniciando o período Ptolomaico. Cleópatra VII (famosa) foi a última rainha dinástica.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1952</div>
+                    <div class="timeline-content">
+                        <h3>Independência Moderna</h3>
+                        <p>Revolução que derrubou a monarquia. Gamal Abdel Nasser se tornou presidente, modernizando o país.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Atualmente</div>
+                    <div class="timeline-content">
+                        <h3>Egito Contemporâneo</h3>
+                        <p>República Árabe do Egito, membro da Liga Árabe. Importante centro cultural, político e econômico do Oriente Médio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Cultura -->
+        <section id="cultura" class="secao">
+            <h1>Cultura Egípcia</h1>
+            <div class="cultura-grid">
+                <div class="cultura-card">
+                    <h2>🎨 Artes e Artesanato</h2>
+                    <p>O Egito possui uma rica tradição artística milenar. Desde a cerâmica antiga até a arte islâmica moderna, as criações egípcias refletem sua história e espiritualidade. Papiros e hieróglifos decorativos são souvenires populares.</p>
+                </div>
+
+                <div class="cultura-card">
+                    <h2>🍽️ Gastronomia</h2>
+                    <p>A culinária egípcia é saborosa e variada. Pratos como Ful Medames (feijão cozido), Koshari (mistura de arroz, macarrão e lentilhas), Falafel e pão Aish Baladi são comuns. O chá é a bebida mais popular.</p>
+                </div>
+
+                <div class="cultura-card">
+                    <h2>🕌 Religião</h2>
+                    <p>A maioria dos egípcios é muçulmana (cerca de 90%), com uma minoria cristã copta. O Islã molda a cultura, festas e modo de vida. Mesquitas e templos antigos são locais sagrados.</p>
+                </div>
+
+                <div class="cultura-card">
+                    <h2>🎭 Música e Dança</h2>
+                    <p>A música egípcia é conhecida mundialmente. Artistas como Um Kulthum são lendários. A dança do ventre (belly dance) e a música folclórica tradicional são partes importantes da cultura.</p>
+                </div>
+
+                <div class="cultura-card">
+                    <h2>📚 Literatura e Idioma</h2>
+                    <p>O árabe egípcio é a língua falada. Egito produziu grandes escritores como Naguib Mahfouz (prêmio Nobel). A literatura árabe tem raízes profundas no país.</p>
+                </div>
+
+                <div class="cultura-card">
+                    <h2>👔 Costumes e Tradições</h2>
+                    <p>A família é central na cultura egípcia. Festas religiosas como Ramadã e Eid são celebradas com fervor. A hospitalidade é um valor fundamental nos costumes egípcios.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Atrações Turísticas -->
+        <section id="atracoes" class="secao">
+            <h1>Principais Atrações Turísticas</h1>
+            <div class="atracoes-container">
+                <div class="atracao">
+                    <h2>🔺 Pirâmides de Gizé</h2>
+                    <p>As três pirâmides principais (Quéops, Quéfren e Miquerinos) são as estruturas mais icônicas do Egito. Quéops é a maior, original com 146 metros de altura. Construídas como tumbas dos faraós, são exemplos de engenharia antiga impressionante.</p>
+                </div>
+
+                <div class="atracao">
+                    <h2>🗿 A Esfinge</h2>
+                    <p>Estátua colossal com corpo de leão e cabeça humana, localizada no Planalto de Gizé. Mede 73 metros de comprimento e 20 metros de altura. Um dos monumentos mais famosos do mundo, cercado de mistério e lenda.</p>
+                </div>
+
+                <div class="atracao">
+                    <h2>⛩️ Templo de Karnak</h2>
+                    <p>Um complexo monumental em Luxor dedicado ao deus Amon-Rá. Com suas 134 colunas, é um dos maiores templos já construídos. Impressionante tanto pela arquitetura quanto pela história.</p>
+                </div>
+
+                <div class="atracao">
+                    <h2>🕌 Mesquita de Muhammad Ali</h2>
+                    <p>Localizada no Cairo, no Citadel (cidadela), é uma das mesquitas mais impressionantes do mundo islâmico. Construída no século XIX, combina estilos otomano e árabe com elegância excepcional.</p>
+                </div>
+
+                <div class="atracao">
+                    <h2>🏺 Museu Egípcio</h2>
+                    <p>No Cairo, abriga a maior coleção de artefatos egípcios antigos do mundo, incluindo o tesouro de Tutancâmon. Uma visita essencial para compreender a civilização faraônica.</p>
+                </div>
+
+                <div class="atracao">
+                    <h2>📚 Templos de Abu Simbel</h2>
+                    <p>Dois templos escavados em rocha, dedicados a Ramsés II. Localizados no sul do Egito, são famosos pelo fenômeno solar: duas vezes ao ano, a luz do sol penetra o interior do templo principal.</p>
+                </div>
+
+                <div class="atracao">
+                    <h2>🏖️ Alexandria</h2>
+                    <p>Cidade costeira com praias, a Biblioteca de Alexandria e a Cidadela de Qaitbay. Fundada por Alexandre o Grande, combina história grega, romana e islâmica.</p>
+                </div>
+
+                <div class="atracao">
+                    <h2>🌊 Cruzeiro no Rio Nilo</h2>
+                    <p>Viagens de barco no Nilo entre Cairo, Luxor e Assuã permitem apreciar a paisagem natural e visitar templos antigos nas margens. Uma experiência clássica e memorável.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Egito Moderno -->
+        <section id="moderno" class="secao">
+            <h1>Egito Moderno</h1>
+            <div class="moderno-conteudo">
+                <div class="moderno-card">
+                    <h2>🏢 Economia</h2>
+                    <p>O Egito é a maior economia da região. Setores principais incluem turismo, agricultura (especialmente algodão), petróleo e gás natural. O Canal de Suez é uma fonte crucial de renda, conectando o Mediterrâneo ao Mar Vermelho.</p>
+                </div>
+
+                <div class="moderno-card">
+                    <h2>🌆 Cidades Modernas</h2>
+                    <p>Cairo é uma metrópole vibrante com 20 milhões de habitantes. A Nova Capital Administrativa, em construção, reflete os planos de desenvolvimento moderno. Alexandria continua sendo um importante porto.</p>
+                </div>
+
+                <div class="moderno-card">
+                    <h2>📱 Tecnologia</h2>
+                    <p>O Egito está em desenvolvimento tecnológico crescente. Cairo tem uma cena startup em expansão. Universidades modernas promovem educação em ciência e tecnologia.</p>
+                </div>
+
+                <div class="moderno-card">
+                    <h2>🎓 Educação</h2>
+                    <p>Universidades egípcias como a Universidade do Cairo e a Universidade Americana no Cairo são instituições de prestígio. A educação é valorizada e em crescimento contínuo.</p>
+                </div>
+
+                <div class="moderno-card">
+                    <h2>⚽ Esportes</h2>
+                    <p>O futebol é a paixão nacional. O Al Ahly é um dos clubes mais bem-sucedidos de África. A seleção egípcia de futebol é uma potência no futebol africano.</p>
+                </div>
+
+                <div class="moderno-card">
+                    <h2>🎬 Entretenimento</h2>
+                    <p>Cairo é o "Hollywood do Oriente Médio". A indústria cinematográfica egípcia é a mais desenvolvida da região. Música, televisão e mídia são setores importantes.</p>
+                </div>
+
+                <div class="moderno-card">
+                    <h2>🚗 Infraestrutura</h2>
+                    <p>Investimentos em estradas, ferrovias e aeroportos modernizam o país. O metrô do Cairo é um dos maiores do mundo árabe. Projetos de expansão continuam em andamento.</p>
+                </div>
+
+                <div class="moderno-card">
+                    <h2>🌍 Influência Internacional</h2>
+                    <p>O Egito é membro da Liga Árabe, ONU e outras organizações internacionais. Desempenha papel importante nas negociações de paz no Oriente Médio e tem influência política e cultural global.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Egito - Portal Informativo. Todos os direitos reservados.</p>
+        <p>Trabalho Escolar | Instituto Federal do Maranhão (IFMA)</p>
+        <p>Desenvolvido com ❤️ para conhecer melhor a magnífica civilização egípcia</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+            menuToggle.classList.toggle('open');
+        });
+
+        function mostrarSecao(event, id) {
+            event.preventDefault();
+
+            // Esconde todas as seções
+            const secoes = document.querySelectorAll('.secao');
+            secoes.forEach(secao => secao.classList.remove('ativa'));
+
+            // Remove a classe "ativo" de todos os links
+            const links = document.querySelectorAll('.nav-links a');
+            links.forEach(link => link.classList.remove('ativo'));
+
+            // Mostra a seção selecionada
+            document.getElementById(id).classList.add('ativa');
+
+            // Marca o link como ativo
+            event.target.classList.add('ativo');
+
+            // Fecha o menu em dispositivos móveis
+            navLinks.classList.remove('open');
+            menuToggle.classList.remove('open');
+        }
+    </script>
+</body>
+</html>
